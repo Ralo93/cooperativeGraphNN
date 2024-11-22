@@ -21,6 +21,38 @@ suited for applications requiring fine-grained node and edge predictions.
 - **Highly Modular Implementation**: Easily extendable to custom datasets and use cases.
 - **Performance Metrics**: Integrated tools to measure and compare accuracy, F1-score, precision, and recall.
 
+## Key Features and Capabilities
+
+### Attention Visualization
+- Implements functions to **extract and visualize attention weights** in Graph Attention Networks (GATs).
+- Provides node-level and edge-level attention insights through **visualizations** and **detailed logging**.
+
+### Top Contributors Analysis
+- Identifies and visualizes the **top contributors** (1-hop and 2-hop neighbors) to a node's prediction in GAT layers.
+- Highlights key nodes contributing to model decisions.
+
+### Flexible Graph Neural Network Architectures
+- Includes implementations for multiple GNN models:
+  - **GAT (Graph Attention Network)**: Employs multi-head attention to aggregate node information.
+  - **GCN (Graph Convolutional Network)**: Focuses on convolutional operations for graph-structured data.
+  - **Enhanced GCN**: Adds regularization (dropout, batch normalization) and depth for improved learning.
+  - **TransformerAttentionModule**: Explores transformer-style attention for graph nodes.
+
+### Modular Design for Custom Applications
+- Supports custom datasets using the `torch_geometric.data.Data` class.
+- Handles common tasks like adding self-loops, data preprocessing, and train-test splitting.
+
+### Training and Evaluation Workflow
+- **Training Loop**: Logs performance metrics and supports early stopping based on validation accuracy.
+- **Evaluation Metrics**: Computes accuracy and generates classification reports for insights into model performance.
+- **Visualization Tools**: Visualizes graph embeddings and key contributors to node predictions.
+
+### Additional Features
+- **Custom Dataset Handling**: Configured for benchmarking on datasets like Cora, Citeseer, and PubMed.
+- **Minesweeper Visualization**: Converts graphs into a Minesweeper-like field for experimental visualization of nodes and edges.
+- **Scalable Attention Mechanisms**: Integrates efficient multi-head attention for large graphs.
+
+
 ## Installation
 
 ### Prerequisites
