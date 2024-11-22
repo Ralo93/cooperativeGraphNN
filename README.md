@@ -128,7 +128,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 For questions, suggestions, or issues, please contact:
-- **Name**: Your Name
+- **Name**: Raphael von Lottner
 - **Email**: your.email@example.com
 - **GitHub**: [Your GitHub Profile](https://github.com/username)
 
